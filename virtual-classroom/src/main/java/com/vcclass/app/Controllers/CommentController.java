@@ -27,7 +27,7 @@ public class CommentController
 	private static final Logger logger = LoggerFactory.getLogger(CommentController.class); 
 
 	//Add comment
-	@RequestMapping(value = "/comment/createcomment", method = RequestMethod.POST)
+	@RequestMapping(value = "/comment/createcomment/{userid}/", method = RequestMethod.POST)
 	public @ResponseBody int CreateComment(@PathVariable int userid, @RequestBody Comment inccomment)
 	{
 		Comment comment = inccomment;
@@ -45,9 +45,8 @@ public class CommentController
 	}
 	
 	//Get all comments
-	@RequestMapping(value = "/comment/getcomments/user/{userid}/question/{questionid}", 
-			method = RequestMethod.GET)
-	public @ResponseBody List<Comment> GetCommentss(@PathVariable int userid, @PathVariable int questionid)
+	@RequestMapping(value = "/comment/getcomments/user/{userid}/question/{questionid}", method = RequestMethod.GET)
+	public @ResponseBody List<Comment> GetComments(@PathVariable int userid, @PathVariable int questionid)
 	{
 		return commentService.GetComments(userid, questionid);
 	}
