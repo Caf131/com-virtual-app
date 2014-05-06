@@ -136,7 +136,7 @@ public class ServiceTest {
 		
 		
 		/*****BEGIN QUESTION AND COMMENT TESTING******/
-		
+		/*
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
@@ -145,7 +145,7 @@ public class ServiceTest {
 		UserService user = (UserService) context.getBean("userService");		
 		
 		System.out.println("QUESTION TEST:");
-
+*/
 	
 		/*
 		User newStudent = user.GetUser(1);
