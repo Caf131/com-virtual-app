@@ -1,9 +1,8 @@
 /*
- * This class will handle all actions relating to the Note object
- * Chris Forehand
- * 2/2014
- * Test Cases: 
- * Major Modifications: The concept of Note Element has been abandoned
+ * Brief: This is an example of a unit test case
+ * Author: Chris Forehand
+ * Date Started: 2/2014
+ * Major Mods: Note element concept has been abandoned
  * */
 
 package com.vcclass.app.Controllers;

@@ -1,14 +1,11 @@
 /*
+ * Brief: This is the JavaScript class for the Home View
+ * Author: Chris Forehand
+ * Date Started: 4/2014
+ * Test Cases: 
+ * Major Modifications: None
+ * */
 
-\brief This is a JavaScript for the home view
-\author Chris Forehand
-\date 3/20/14
-\verbatim
-	Test Cases: 
-	
-\endverbatim
-
-*/
 $(document).ready(function(){
 	
 	var ctrlLogin = $("#ctrlLogin"); 

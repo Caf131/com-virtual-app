@@ -9,6 +9,7 @@
 \endverbatim
 
 */
+
 $(document).ready(function(){
 	
 	var ctrlRegistration = $("#ctrlRegistration"); 
