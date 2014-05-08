@@ -1,3 +1,11 @@
+/*
+ * Brief: This is an example of a JUnit unit test
+ * Author: Chris Forehand
+ * Date Started: 3/2014
+ * Test Cases: 
+ * Major Modifications: None
+ * */
+
 package com.vcclass.app;
 
 import static org.junit.Assert.*;

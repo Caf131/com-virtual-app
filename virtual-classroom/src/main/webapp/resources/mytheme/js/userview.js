@@ -1,6 +1,10 @@
-/**
- * 
- */
+/*
+ * Brief: This is the JavaScript class for the User View
+ * Author: Chris Forehand
+ * Date Started: 4/2014
+ * Test Cases: 
+ * Major Modifications: None
+ * */
 
 $(document).ready(function () {
 	

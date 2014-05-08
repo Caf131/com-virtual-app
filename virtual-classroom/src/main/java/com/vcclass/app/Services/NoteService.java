@@ -1,9 +1,9 @@
 /*
- * This class will handle all actions relating to persisting the Note Object in the database
- * Chris Forehand
- * 2/2014
- * Test Cases: 
- * 
+ * Brief: This class will handle all actions relating to persisting the Note Object in the database
+ * Author: Chris Forehand
+ * Date Started: 2/2014
+ * Test Cases:
+ * Major Mods: None 
  * */
 
 package com.vcclass.app.Services;

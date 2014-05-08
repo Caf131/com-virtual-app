@@ -1,7 +1,7 @@
 /*
- * This class is the PositionInfo data object
- * Chris Forehand
- * 2/2014
+ * Brief: This class is the PositionInfo data object
+ * Author: Chris Forehand
+ * Date Started: 2/2014
  * Test Cases: 
  * Major Modifications: Not using the class
  * */
