@@ -137,6 +137,12 @@ public class ServiceTest {
 		
 		/*****BEGIN QUESTION AND COMMENT TESTING******/
 		/*
+		 * Test cases: Add, get, update, delete
+		 * Major Mods: n/a
+		 * 
+		 * */
+		
+		/*
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
