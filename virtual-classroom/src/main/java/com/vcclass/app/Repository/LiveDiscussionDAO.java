@@ -3,7 +3,7 @@
  * Chris Forehand
  * 2/2014
  * Test Cases: 
- * Major Modifications: Not using the class
+ * Major Modifications: None
  * */
 
 package com.vcclass.app.Repository;

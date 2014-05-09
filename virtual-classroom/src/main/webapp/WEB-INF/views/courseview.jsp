@@ -1,7 +1,7 @@
 <!-- 
-\brief This is the client-side home view
+\brief This is the client-side course view
 \author Chris Forehand
-\date 3/20/14
+\date 4/2014
 \verbatim
 	Test Cases: 
 	

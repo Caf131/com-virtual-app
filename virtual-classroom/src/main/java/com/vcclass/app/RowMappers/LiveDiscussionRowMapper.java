@@ -1,9 +1,9 @@
 /*
- * This class will handle mapping relational database rows to the Live Discussion Object
- * Chris Forehand
- * 2/2014
+ * Brief: This class will handle mapping relational database rows to the Live Discussion Object
+ * Author: Chris Forehand
+ * Date Started: 2/2014
  * Test Cases: 
- * 
+ * Major Mods: None
  * */
 
 package com.vcclass.app.RowMappers;

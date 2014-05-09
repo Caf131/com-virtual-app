@@ -1,9 +1,7 @@
 /*
- * This class is the Note data object
- * Chris Forehand
- * 2/2014
- * Test Cases: 
- * 
+ * Brief: This is an example of a unit test case
+ * Author: Chris Forehand
+ * Date Started: 2/2014
  * */
 
 package com.vcclass.app.Data;

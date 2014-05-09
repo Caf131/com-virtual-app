@@ -1,9 +1,8 @@
 /*
- * This class is the Note Elemenet data object
- * Chris Forehand
- * 2/2014
- * Test Cases: 
- * Major Modifications: Not using the class
+ * Brief: This is an example of a unit test case
+ * Author: Chris Forehand
+ * Date Started: 2/2014
+ * Major Mods: Not implemented
  * */
 
 package com.vcclass.app.Data;
