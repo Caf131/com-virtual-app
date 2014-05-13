@@ -1,3 +1,11 @@
+/*
+ * Brief: Interface for "Comment" class implementation
+ * Author: Olivia Bradley-Willemann
+ * Date: 3/2014
+ * Test cases: See ServiceTest.java
+ * Major Mods: n/a
+ * */
+
 package com.vcclass.app.Repository;
 
 import com.vcclass.app.Data.Comment;

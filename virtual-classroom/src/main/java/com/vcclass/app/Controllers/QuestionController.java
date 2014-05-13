@@ -1,3 +1,11 @@
+/*
+ * Brief: Controller for the "Question" class
+ * Author: Olivia Bradley-Willemann
+ * Date: 2/2014
+ * Test cases: See ServiceTest.java
+ * Major Mods: n/a
+ * */
+
 package com.vcclass.app.Controllers;
 
 import org.slf4j.Logger;
