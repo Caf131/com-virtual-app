@@ -50,6 +50,7 @@ public class NoteService implements NoteDAO
 		Object [] parameters = new Object[]{new Integer(studentId)};  
 		List<Map<String, Object>> rows = jdbc.queryForList(sql, parameters);
 		
+		// map the rows returned from the database to Java Objects
 		for(Map row: rows)
 		{
 			Note note = new Note(); 
@@ -70,6 +71,8 @@ public class NoteService implements NoteDAO
 	{
 		String sql = "select * FROM Note WHERE User_Id = ? AND Id = ?"; 
 		Note note = new Note();
+		
+		// query for the object (rows) and then use an external Row Mapper to map the rows to object properties
 		note = jdbc.queryForObject(sql, new Object[]{studentId, noteId}, new NoteRowMapper());
 		
 		return note; 
@@ -81,6 +84,10 @@ public class NoteService implements NoteDAO
 	{
 		final String sql = "insert into Note (User_Id, Course_Id, DateCreated, FilePath) values (?, ?, ?, ?)";
 		
+		// this is required to return the ID of the last element you just inserted
+		// If we try to select the "MAX" Id, there is a race condition, since this is a multi-user application
+		// Basically, one user can create a note, at the same time another user creates, then we get the "MAX" Id
+		// it could be the user 1 or user 2, we cannot guarantee which one will be returned first
 		KeyHolder keyHolder = new GeneratedKeyHolder();
 	        jdbc.update(
 	        		new PreparedStatementCreator()  

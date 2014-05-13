@@ -38,6 +38,8 @@ public class NoteController
 		return noteList; 
 	}
 	
+	// RequestMapping represents the path to a specific resources
+	// See SpringDoc for more details
 	@RequestMapping(value = "/note/getnotes/{noteId}/student/{studentId}", method = RequestMethod.GET)
 	public @ResponseBody Note GetNoteForStudent(@PathVariable int noteId, @PathVariable int studentId)
 	{
