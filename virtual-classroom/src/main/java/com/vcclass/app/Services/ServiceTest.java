@@ -62,11 +62,11 @@ public class ServiceTest {
 		
 		UserService student = (UserService) context.getBean("userService");
 		System.out.println("TEST:");
-		/*
+		
 		List<User> students = student.GetStudents();
 		
 		for(User user : students){
-			System.out.println("ID: "+user.GetUserId() +"\t\t Name: "+user.GetFirstName()+" "+user.GetLastName());
+			System.out.println("ID: "+user.GetId() +"\t\t Name: "+user.GetFirstName()+" "+user.GetLastName());
 		}
 		
 		CourseService courses = (CourseService) context.getBean("courseService");
@@ -74,7 +74,8 @@ public class ServiceTest {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 		java.util.Date mD = dateFormat.parse("2014/02/16");
 		
-		Course course = courses.GetCourse(6);
+		Course course = courses.GetCourse(2);
+		*/
 		/*
 		CourseSession sess = new CourseSession(course, mD, "Merge Sort");
 		int a = courses.CreateCourseSession(sess);
@@ -135,7 +136,13 @@ public class ServiceTest {
 		
 		
 		/*****BEGIN QUESTION AND COMMENT TESTING******/
+		/*
+		 * Test cases: Add, get, update, delete
+		 * Major Mods: n/a
+		 * 
+		 * */
 		
+		/*
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		
@@ -144,7 +151,7 @@ public class ServiceTest {
 		UserService user = (UserService) context.getBean("userService");		
 		
 		System.out.println("QUESTION TEST:");
-
+*/
 	
 		/*
 		User newStudent = user.GetUser(1);

@@ -1,3 +1,11 @@
+/*
+ * Brief: Service for "Comment" class data store
+ * Author: Olivia Bradley-Willemann
+ * Date: 3/2014
+ * Test cases: See ServiceTest.java
+ * Major Mods: n/a
+ * */
+
 package com.vcclass.app.Services;
 
 import java.sql.*;
